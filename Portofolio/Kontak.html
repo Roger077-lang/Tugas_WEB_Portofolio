@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Beranda | Portofolio </title>
+</head>
+<body>
+    <h1> Rr Dev | Portofolio </h1>
+    <p> | Design Grafis | Animator | Game Developer | </p>
+    <nav aria-label="Navigasi Utana">
+        <ul>
+            <li><a href= "index.html" > Beranda </a></li>
+            <li><a href= "Tentang.html" > Tentang </a></li>
+            <li><a href= "Proyek.html" > Proyek </a></li>
+            <li><a href= "Pengalaman.html" > Pengalaman </a></li>
+            <li><a href= "Kontak.html" aria-current="page" > Kontak </a></li>
+        </ul>
+    </nav>
+<header>
+    <main id="Konten">
+        <h1> Kontak </h1>
+        <section aria-labelledby="info-title">
+            <h2 id="info-title"></h2>
+            <address>
+                Email   : <a href="mailto:rogerawm0@gmail.com"> rogerawm0@gmail.com </a><br>
+                Telepon : <a href="tel: 081231084741"> 081231084741</a><br>
+                Madiun, Jawa Timur
+            </address>
+        </section>
+        <section aria-labelledby="form-title">
+            <h2 id="form-title"> Kirim pesan </h2>
+            <p> Kolom Bertanda (Wajib di isi) </p>
+            <form action="https://example.com/kirim-pesan" method="post">
+                <fieldset>
+                    <legend> Data Anda </legend>
+                    <p> 
+                        <label for="nama"> Nama (wajib) </label><br>
+                        <input id="nama" name="nama" type="text" autocomplete="name" required>
+                    </p>
+                    <p> 
+                        <label for="email"> Email (wajib) </label><br>
+                        <input id="email" name="email" type="email" autocomplete="email" required>
+                    </p>
+                </fieldset>
+                <fieldset>
+                    <legend> Pesan </legend>
+                    <p> 
+                        <label for="topik"> Topik </label><br>
+                        <select id="topik" name="topik">
+                            <option value=" "> Pilih Topik </option>
+                            <option value=" Kolaborasi "> Kolaborasi </option>
+                            <option value=" Pekerjaan "> Pekerjaan </option>
+                            <option value=" Lainnya "> Lainnya </option>
+                        </select>
+                    </p>
+                    <p>
+                        <label for="pesan"> Isi Pesan </label><br>
+                        <textarea id="pesan" name="pesan" rows="6" cols="50" minlength="20" maxlength="1000" required></textarea>
+                    </p>
+                    <p>
+                        <label>
+                            <input type="checkbox" name="setuju" value="ya" required>
+                            Saya setuju data saya digunakan untuk membalas pesan ini.
+                        </label>
+                    </p>
+                </fieldset>
+                <button type="submit"> Kirim Pesan </button>
+            </form>
+        </section>
+    </main>
+    <footer>
+            <p> &copy; 2026 Roger Bintang Nugraha </p>
+            <p> <a href= "Kontak.html" > Kontak kami </a></p>
+        </footer>
+</header>
+</body>
+</html>
