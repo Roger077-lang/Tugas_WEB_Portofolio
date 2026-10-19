@@ -1,7 +1,0 @@
-CURRICULUM VITAE - GERR
-
-Jurusan: Informatika
-Skill: HTML, desain grafis, editing
-Proyek: Website portfolio, desain poster, desain banner
-
-Catatan: Ganti dokumen contoh ini dengan CV asli sebelum mengumpulkan tugas.
